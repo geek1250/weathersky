@@ -81,7 +81,7 @@ final class LocalStoreManager {
     }
     func getWeatherDatas() -> [[String: Any]] {
         if let loadedCart = UserDefaults.standard.array(forKey: "weatherDatas") as? [[String: Any]] {
-            print(loadedCart)  // [[price: 19.99, qty: 1, name: A], [price: 4.99, qty: 2, name: B]]"
+//            print(loadedCart)  
 //            for item in loadedCart {
 //                print(item["name"]  as! String)
 //                print(item["temperature"] as! Double)
